@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mindfulness Timer - LeoAxis</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mindfulness Timer</h1>
+    </header>
+
+    <!-- LeoAxis Promotion Banner -->
+    <div class="promo-banner">
+      <div class="promo-text">
+        Mindfulness Timer – Built with passion under LeoAxis Cloud Workshop | Contact: 
+        <a href="mailto:info@leoaxis.com">info@leoaxis.com</a> | Visit: 
+        <a href="https://www.leoaxis.com" target="_blank">www.leoaxis.com</a>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <button id="studyBtn">Study</button>
+      <button id="gymBtn">Gym</button>
+      <button id="addBtn">+ Add</button>
+      <ul id="customList" class="custom-timer-list"></ul>
+    </div>
+
+    <aside class="controls">
+      <div class="input-group">
+        <label>Set the Timer Name</label>
+        <input type="text" id="inputName" placeholder="Enter Name" />
+      </div>
+      <div class="input-group">
+        <label>Set Duration</label>
+        <input type="number" id="inputHours" placeholder="HH" />
+        <input type="number" id="inputMinutes" placeholder="MM" />
+      </div>
+      <button id="setTimerBtn" class="create-btn">Create</button>
+    </aside>
+
+    <main class="main-content">
+      <div id="timerName" class="timer-name">Timer Name (Topic)</div>
+      <div id="timerDisplay" class="timer-display">00:00:00</div>
+      <div class="timer-buttons">
+        <button id="stopBtn">Stop</button>
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
